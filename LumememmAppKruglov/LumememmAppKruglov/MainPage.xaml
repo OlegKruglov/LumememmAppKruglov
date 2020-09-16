@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LumememmAppKruglov.MainPage">
+
+    <StackLayout>
+        <Frame x:Name="Head"  BackgroundColor="blue" Padding="50" CornerRadius="80" Margin="120,0">
+        </Frame>
+        <Frame x:Name="Body" BackgroundColor="blue" Padding="60" CornerRadius="80" Margin="100,0">
+        </Frame>
+        <Frame x:Name="Lower" BackgroundColor="blue" Padding="70" CornerRadius="80" Margin="80,0">
+        </Frame>
+        <Frame BackgroundColor="brown" HorizontalOptions="FillAndExpand" Margin="50,0" Padding="60">
+        </Frame>
+        <StackLayout>
+            <Button x:Name="col" BackgroundColor="Gray" HorizontalOptions="FillAndExpand" Text="Color Randomly" Clicked="col_Clicked">
+            </Button>
+            <Button x:Name="destroy" BackgroundColor="Gray" HorizontalOptions="FillAndExpand" Text="Destroy" Clicked="destroybtn_Clicked">
+            </Button>
+            <Button x:Name="build" BackgroundColor="Gray" HorizontalOptions="FillAndExpand" Text="Build" Clicked="build_Clicked">
+            </Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
