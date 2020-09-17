@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LumememmAppKruglov.absolute">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="100, 50, 50, 80" CornerRadius="90" />
+            <BoxView Color="Green" AbsoluteLayout.LayoutBounds="50, 100, 50, 80" CornerRadius="90"/>
+            <BoxView Color="Blue" AbsoluteLayout.LayoutBounds="200, 150, 70, 100" CornerRadius="90"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
